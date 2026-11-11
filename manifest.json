@@ -7,8 +7,8 @@
       "sha256": "964084044224aef4dce2bc1910296dfe7ee7e52ae9dc74e29230e17d9bb39aab"
     },
     "pets/xiaonaiwa-2d/pet.json": {
-      "bytes": 250,
-      "sha256": "9c5c53533a5d9bd766c0ee1ccde1a24860c50faf1f3b6c5b880cf536e1593b05"
+      "bytes": 243,
+      "sha256": "246a46df409b71abc93491baefe5c16b77270e35f06153d255ed570ae50ab8d8"
     },
     "pets/xiaonaiwa-2d/spritesheet.webp": {
       "bytes": 1274394,
@@ -23,8 +23,8 @@
       "sha256": "9dd655d33e3ef4b7e11db5f7090005319e4f27bcc83582a49631b7908a6019db"
     },
     "pets/xiaonaiwa-3d/pet.json": {
-      "bytes": 259,
-      "sha256": "7ebc9455b65f1b5c93ab0e974ad758e6ae709b83d160f1613c34250036ca394a"
+      "bytes": 252,
+      "sha256": "b9337e5e15d51d7736bbe08c372775583ddff0fc37793ed236ea68c2d32ace4e"
     },
     "pets/xiaonaiwa-3d/spritesheet.webp": {
       "bytes": 1619938,
