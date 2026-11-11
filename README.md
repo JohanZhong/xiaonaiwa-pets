@@ -97,6 +97,3 @@ python scripts/build_release.py
 
 欢迎通过 [Issue](https://github.com/JohanZhong/xiaonaiwa-pets/issues) 提交具体问题，附版本、操作系统和复现步骤；贡献方式见 [CONTRIBUTING](CONTRIBUTING.md)。觉得有用的话，可以点一个 Star，让更多人发现这只小奶蛙。
 
-## 致谢
-
-项目的目录组织与安装体验参考 [timerring/codex-pet-naiwa](https://github.com/timerring/codex-pet-naiwa)。本仓库没有复制该仓库的角色精灵图或动画素材。当前素材来自用户提供的形象参考、内置 image gen 生成与人工选择/校验；第三方角色权利仍归其权利人。
