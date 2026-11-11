@@ -1,0 +1,27 @@
+name: Bug report / 问题反馈
+description: Report installation or animation problems
+body:
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition / 版本
+      options: [Classic 2D, Refined 3D, Both]
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and client version / 系统与客户端版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps, expected result and actual result / 复现步骤及结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot or affected state/frame / 截图或具体动作帧
+      description: Remove private information before posting.

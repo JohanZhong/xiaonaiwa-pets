@@ -1,0 +1,13 @@
+name: Suggestion / 建议
+description: Suggest a specific improvement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this improve? / 想改善什么体验？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / 建议方案
