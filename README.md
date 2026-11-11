@@ -1,6 +1,6 @@
 <div align="center">
 
-# 小奶蛙 · Xiaonaiwa Pets
+# 小奶蛙 · 小奶娃 · Xiaonaiwa Pets
 
 **一只陪你工作的奶黄色小伙伴，两种喜欢的样子。**
 
