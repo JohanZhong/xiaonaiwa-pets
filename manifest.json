@@ -1,22 +1,22 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "spriteVersion": 2,
   "files": {
     "pets/xiaonaiwa-2d/legacy-v1.png": {
-      "bytes": 1328920,
-      "sha256": "964084044224aef4dce2bc1910296dfe7ee7e52ae9dc74e29230e17d9bb39aab"
+      "bytes": 1256116,
+      "sha256": "e4ec8f7ece60a4bed702012381ff4f01077ff1d112c70a7f4ace4dc04004aa5d"
     },
     "pets/xiaonaiwa-2d/pet.json": {
       "bytes": 243,
       "sha256": "246a46df409b71abc93491baefe5c16b77270e35f06153d255ed570ae50ab8d8"
     },
     "pets/xiaonaiwa-2d/spritesheet.webp": {
-      "bytes": 1274394,
-      "sha256": "9f294753cc92df47133e7103a2a2e7c0ea85d69c8dac901ab3314fbb418e4eca"
+      "bytes": 1206132,
+      "sha256": "1c5e5e18195127911bdd3c18c75c6409906d798a92749ab92e6f39670c833581"
     },
     "pets/xiaonaiwa-2d/work-spritesheet.png": {
-      "bytes": 1682076,
-      "sha256": "7041649cd27bb6a6829c262d8e8a656cc3d0117ebdecd0878907715d3c26269e"
+      "bytes": 1609436,
+      "sha256": "2b6c3b8e0e68690e81356b86df331de5d9c6caae35e1bcf0443cce85a21f3f13"
     },
     "pets/xiaonaiwa-3d/legacy-v1.png": {
       "bytes": 1721376,

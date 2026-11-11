@@ -44,7 +44,7 @@
 
 ### 手动安装，无需运行脚本
 
-1. 在 [Releases](https://github.com/JohanZhong/xiaonaiwa-pets/releases/latest) 下载 `xiaonaiwa-pets-v1.0.0.zip` 并解压。
+1. 在 [Releases](https://github.com/JohanZhong/xiaonaiwa-pets/releases/latest) 下载 `xiaonaiwa-pets-v1.0.1.zip` 并解压。
 2. 在支持自定义宠物的 Codex 桌面版中，打开 **Settings → Pets → Custom pets → Open folder**。
 3. 把 `pets` 内的 `xiaonaiwa-2d`、`xiaonaiwa-3d` 文件夹复制进去。
 4. 返回设置，点击 **Refresh**，选择其中一版。若界面没有这些入口，请查看 [兼容性与排错](docs/INSTALL.md)。

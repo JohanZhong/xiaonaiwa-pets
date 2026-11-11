@@ -5,7 +5,7 @@ import hashlib
 import zipfile
 from validate import validate, ROOT
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 def build():
     validate()

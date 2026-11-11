@@ -18,7 +18,7 @@ V2: **1536 × 2288**, 8 columns × 11 rows. Cell: **192 × 208**. 73 used cells;
 
 Look poses move clockwise in screen coordinates: 000 is up, 090 right, 180 down, 270 left. The preview loops these poses at 150 ms for inspection; that loop is not a claim about pointer movement in the application.
 
-`running` means active work/thinking, rather than foot-running. Classic idle uses approximately 100%, 50%, 0%, 30%, 70%, 100% eye aperture. First and last resting frames match exactly. Generated intermediate frames may have tiny contour/texture differences; no conspicuous registration pop was found in native-size review.
+`running` means active work/thinking, rather than foot-running. Classic idle uses approximately 100%, 50%, 0%, 30%, 70%, 100% eye aperture. First and last resting frames match exactly. Since v1.0.1, all six classic idle frames share the exact original body and alpha; only feathered, color-matched eye regions vary. A pixel-level regression check rejects body color changes.
 
 ## Production and acceptance
 

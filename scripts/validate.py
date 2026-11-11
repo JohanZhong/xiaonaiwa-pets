@@ -3,10 +3,21 @@
 from pathlib import Path
 import hashlib
 import json
-from PIL import Image
+from PIL import Image, ImageChops, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = [6, 8, 8, 4, 5, 8, 6, 6, 6, 8, 8]
+
+def validate_idle_stability(atlas):
+    base = atlas.crop((0,0,192,208)).convert('RGBA')
+    for col in range(1,6):
+        frame = atlas.crop((col*192,0,(col+1)*192,208)).convert('RGBA')
+        assert frame.getchannel('A').tobytes() == base.getchannel('A').tobytes(), 'Idle silhouette changed'
+        diff = ImageChops.difference(base.convert('RGB'), frame.convert('RGB'))
+        draw = ImageDraw.Draw(diff)
+        for x in (75,117):
+            draw.rectangle((x-13,69,x+13,101), fill=(0,0,0))
+        assert diff.getbbox() is None, f'Idle body color changed in frame {col}'
 
 def validate(root=ROOT):
     manifest = json.loads((root / 'manifest.json').read_text())
@@ -24,6 +35,8 @@ def validate(root=ROOT):
         with Image.open(folder / 'spritesheet.webp') as source:
             atlas = source.convert('RGBA')
         assert atlas.size == (1536, 2288)
+        if style == '2d':
+            validate_idle_stability(atlas)
         for row, count in enumerate(COUNTS):
             for col in range(8):
                 cell = atlas.crop((col*192, row*208, (col+1)*192, (row+1)*208))
